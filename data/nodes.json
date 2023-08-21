@@ -432,6 +432,24 @@
         "imageUrl": "static/logo/adkkkkkkkk.jpg",
         "url": "https://t.me/adkkkkkkkk"
     },
+        {
+        "id": "sled_tut",
+        "name": "Расследились тут",
+        "links": [
+            "osint_mindset"
+        ],
+        "imageUrl": "static/logo/rassledilistyt.jpg",
+        "url": "https://t.me/sled_tut"
+    },
+    {
+        "id": "sled_tut",
+        "name": "???",
+        "links": [
+            "sled_tut",
+        ],
+        "imageUrl": "static/logo/sled_tut_user.jpg",
+        "url": "null"
+    },
     {
         "id": "irozysk",
         "name": "Интернет-Розыск",
