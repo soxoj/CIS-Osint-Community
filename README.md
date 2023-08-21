@@ -1,18 +1,18 @@
-# Osint сообщество стран СНГ
-Посмотреть схему: https://north-palmyra.github.io/CIS-Osint-Community/
+# OSINT-сообщества стран СНГ
+Посмотреть схему: https://soxoj.github.io/CIS-Osint-Community/
 
 ## Данные
 Хранятся в файле `data/nodes.json` в виде списка узлов. Формат узла:
 ```json
 {
-    "id": "intelligence_guild",
-    "name": "Северная Пальмира",
+    "id": "osint_mindset",
+    "name": "OSINT mindset",
     "links": [
         "osint"
     ],
     "noUpdate": true,
-    "imageUrl": "static/logo/intelligence_guild.jpg",
-    "url": "https://t.me/intelligence_guild"
+    "imageUrl": "static/logo/osint_mindset.jpg",
+    "url": "https://t.me/osint_mindset"
 },
 ```
 * `id` -- Никнейм человека или канала. Если не известен, то должен начинаться с трёх знаков вопроса, далее никнейм канала для которого добавлен. Обязательное поле.
@@ -23,7 +23,7 @@
 * `url` -- ссылка на канал или человека. Если человек не известен -- `null`. Формируется автоматически на основе id. Обязательное поле.
 
 ## Скрипт автоматизации
-* `python do.py add nicname id_родителя` -- добавление узла в дерерво. Например `python do.py add business_cons intelligence_guild`.
+* `python do.py add nicname id_родителя` -- добавление узла в дерерво. Например `python do.py add cybersecurity_for_all osint_mindset`.
 * `python do.py update` -- обновить названия и логотипы всех узлов, кроме тех, где указан параметр `noUpdate`.
 * `python do.py updateLogo` -- обновить логотипы всех узлов, кроме тех, где указан параметр `noUpdate`.
 

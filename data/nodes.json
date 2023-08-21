@@ -870,15 +870,6 @@
         "url": null
     },
     {
-        "id": "osint_ru_events",
-        "name": "OSINT RU мероприятия",
-        "links": [
-            "osint"
-        ],
-        "imageUrl": "static/logo/osint_ru_events.jpg",
-        "url": "https://t.me/osint_ru_events"
-    },
-    {
         "id": "soxoj_insides",
         "name": "Soxoj insides",
         "links": [
@@ -897,12 +888,12 @@
         "url": "https://t.me/+dHYUturlVFo0MzIy"
     },
     {
-        "id": "osint_mindset_en",
+        "id": "osint_mindset_eng",
         "name": "OSINT mindset [ENG]",
         "links": [
             "osint_mindset"
         ],
         "imageUrl": "static/logo/osint_mindset_en.jpg",
-        "url": "https://t.me/osint_mindset"
+        "url": "https://t.me/osint_mindset_eng"
     }
 ]

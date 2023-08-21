@@ -1,11 +1,11 @@
 <html>
 <head>
     <meta charset="utf-8"/>
-    <title>Osint сообщество стран СНГ</title>
+    <title>OSINT-сообщества стран СНГ</title>
     <link rel="stylesheet" href="static/css/style.css" />
 </head>
 <body>
-<a class="footer" target="_blank" href="https://t.me/intelligence_guild">Сделано специалистами @Intelligence_Guild</a>
+<a class="footer" target="_blank" href="https://t.me/osint_mindset">Доработано @Intelligence_Guild и @osint_mindset</a>
 <a class="footer_tgscan" target="_blank" href="https://github.com/tgscan/ru-osint-infosec-map">Сделано на базе ru-osint-infosec-map</a>
 <div id="box"></div>
 <script src="static/js/vivagraph.min.js"></script>
@@ -109,7 +109,7 @@ fetch('./data/nodes.json')
         render(json);
     })
     .catch(() => {
-        document.getElementById('box').innerHTML = 123;
+        document.getElementById('box').innerHTML = 'Загрузка...';
     });
 </script>
 </body>
