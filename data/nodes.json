@@ -914,4 +914,40 @@
         "imageUrl": "static/logo/osint_mindset_en.jpg",
         "url": "https://t.me/osint_mindset_eng"
     }
+    {
+        "id": "books_osint",
+        "name": "Библиотека разведчика | Osint | Книги | Курсы",
+        "links": [
+            "osint"
+        ],
+        "imageUrl": "static/logo/books_osint.jpg",
+        "url": "https://t.me/books_osint"
+    },
+    {
+        "id": "books_osint_user",
+        "name": "???",
+        "links": [
+            "books_osint",
+        ],
+        "imageUrl": "static/logo/books_osint_user.jpg",
+        "url": "null"
+    },
+    {
+        "id": "freeosint",
+        "name": "OSINT🔎",
+        "links": [
+            "osint"
+        ],
+        "imageUrl": "static/logo/freeosint.jpg",
+        "url": "https://t.me/freeosint"
+    },
+    {
+        "id": "freeosint_user",
+        "name": "???",
+        "links": [
+            "freeosint",
+        ],
+        "imageUrl": "static/logo/freeosint_user.jpg",
+        "url": "null"
+    },
 ]
