@@ -432,7 +432,7 @@
         "imageUrl": "static/logo/adkkkkkkkk.jpg",
         "url": "https://t.me/adkkkkkkkk"
     },
-        {
+    {
         "id": "sled_tut",
         "name": "Расследились тут",
         "links": [
@@ -442,13 +442,13 @@
         "url": "https://t.me/sled_tut"
     },
     {
-        "id": "sled_tut",
+        "id": "sled_tut_user",
         "name": "???",
         "links": [
-            "sled_tut",
+            "sled_tut"
         ],
         "imageUrl": "static/logo/sled_tut_user.jpg",
-        "url": "null"
+        "url": null
     },
     {
         "id": "irozysk",
@@ -913,7 +913,7 @@
         ],
         "imageUrl": "static/logo/osint_mindset_en.jpg",
         "url": "https://t.me/osint_mindset_eng"
-    }
+    },
     {
         "id": "books_osint",
         "name": "Библиотека разведчика | Osint | Книги | Курсы",
@@ -927,14 +927,14 @@
         "id": "books_osint_user",
         "name": "???",
         "links": [
-            "books_osint",
+            "books_osint"
         ],
         "imageUrl": "static/logo/books_osint_user.jpg",
-        "url": "null"
+        "url": null
     },
     {
         "id": "freeosint",
-        "name": "OSINT🔎",
+        "name": "OSINT",
         "links": [
             "osint"
         ],
@@ -945,9 +945,9 @@
         "id": "freeosint_user",
         "name": "???",
         "links": [
-            "freeosint",
+            "freeosint"
         ],
         "imageUrl": "static/logo/freeosint_user.jpg",
-        "url": "null"
+        "url": null
     }
 ]
